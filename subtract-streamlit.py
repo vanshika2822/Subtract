@@ -5,9 +5,9 @@ def user(text):
     return f'<h3 style=\'text-align: center; padding-top: 20px; color: green;\'>Answer: {text:.2f}</h4>'
 
 
-st.markdown("<h1 style='text-align: center; padding-top: 60px; padding-bottom: 0px;'>Division</h1>",
+st.markdown("<h1 style='text-align: center; padding-top: 60px; padding-bottom: 0px;'>Subtraction</h1>",
             unsafe_allow_html=True)
-st.markdown("<p style='text-align: center; padding-top: 0px; padding-bottom: 40px;'>Divide Two Numbers using Streamlit</p>",
+st.markdown("<p style='text-align: center; padding-top: 0px; padding-bottom: 40px;'>Subtract Two Numbers using Streamlit</p>",
             unsafe_allow_html=True)
 
 
@@ -24,7 +24,7 @@ with st.empty():
 ##    if num2 == 0:
 ##        st.error('Cannot Divide by Zero!! Please, enter valid input')
 ##    else:
-    if st.button('Add'):
+    if st.button('Subtract'):
         if num2 != 0:
             st.write(user(num1 - num2),
                      unsafe_allow_html=True)
